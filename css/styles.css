@@ -14,6 +14,7 @@ body {
   position: fixed;
   width: 100%;
    z-index: 1;
+   top: 0;
 }
 .topnav {
   overflow: hidden;
@@ -35,22 +36,14 @@ body {
 }
 
 .topnav a.active {
-  background-color: #4CAF50;
+  background-color: red;
   color: white;
 }
 
 .topnav a.logo {
-  background-color: #4CAF50;
+  background-color: red;
   color: white;
   float:right;
-}
-#logo_main{
-  background-image: url('../images/logo_2.png');
-  background-repeat: no-repeat;
-  background-size: 300px 80px;
-  float:left;
-  width:300px;
-  height: 80px;
 }
 
 
@@ -59,6 +52,8 @@ body {
   height: auto;
   background-image: url('../images/background_2.jfif');
   background-size: auto;
+  position: relative;
+  margin-top:47px;
 }
 .small_info h1{
   margin:0;
@@ -71,7 +66,6 @@ body {
     height: 500px;
     width: 50%;
     position: relative;
-
     overflow-x: hidden;
  
 }
