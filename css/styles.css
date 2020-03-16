@@ -5,7 +5,7 @@
 body {
   font-size: 16px;
   color: #fff;
-  background-color: #2F4F4F;
+  background-color:#dcdcdc;
   margin: 0;
   font-family: Arial, sans-serif;
 }
@@ -18,7 +18,7 @@ body {
 }
 .topnav {
   overflow: hidden;
-  background-color: #111;
+  background-color: #1c222a;
 }
 
 .topnav a {
@@ -36,12 +36,12 @@ body {
 }
 
 .topnav a.active {
-  background-color: red;
+  background-color: #edb021;
   color: white;
 }
 
 .topnav a.logo {
-  background-color: red;
+  background-color: #edb021;
   color: white;
   float:right;
 }
@@ -77,12 +77,12 @@ body {
     left: 0;
     clear:left;
     float:left;
-    background-color: #111;
+    background-color: #1c222a;
 }
 
 .right {
     right: 0;
-    background-color: red;
+    background-color: #edb021;
 }
 
 .centered {
@@ -104,6 +104,7 @@ body {
   width:44%;
   text-align: center;
   font-family: arial;
+  color: black;
   float:left;
   margin:3% 3%;
 }
@@ -137,22 +138,39 @@ button:hover, a:hover {
 }
 
 
-
-.login {
+.contact_us {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1);
-  width:75%;
+  width:50%;
   text-align: center;
   font-family: arial;
   float:left;
-  margin:5.5% 8% 6% 12%;
-  background-color: red;
+  margin:5.5% 25% 6% 25%;
+  background-color: #FFFFFF;
+  color:black;
+  position: relative;
+}
+.texti{
+  font-size: 25px;
+  position: relative;
+  top:20px;
+  font-weight:600;
+}
+.login {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1);
+  width:50%;
+  text-align: center;
+  font-family: arial;
+  float:left;
+  margin:5.5% 25% 6% 25%;
+  background-color: #FFFFFF;
   z-index: 2;
+  color:black;
 }
 
 .imgcontainer {
     margin: 24px 0 12px 50px;
 }
-input[type=text], input[type=password] {
+input[type=text], input[type=password]{
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
@@ -160,6 +178,10 @@ input[type=text], input[type=password] {
     border: 2px  solid black;
     border-radius: 1%;
 }
+.rmb{
+  color:black;
+  text-align: center;
+} 
 button {
     color: white;
     padding: 14px 20px;
@@ -173,13 +195,6 @@ button:hover {
     opacity: 0.8;
 }
 
-.cancelbtn {
-    width: auto;
-    padding: 10px 18px;
-    background-color: #f44336;
-    float: left;
-    margin-bottom: 20px;
-}
 
 .container_sm {
     padding: 32px;
@@ -189,12 +204,14 @@ button:hover {
 
 .container_bg {
     padding: 32px;
+    text-align: left;
 }
 
 span.psw {
     float: right;
     padding-top: 16px;
     color:white;
+    text-align: center;
 }
 span.psw  a{
     color:white;
@@ -301,10 +318,10 @@ footer {
       font-size: 13px;
     }
     .container_sm {
-    height: 150px;
+    height: 100px;
     }
     span.psw  a{
-    font-size:12px;
+    font-size:20px;
     }
 }
 @media only screen and (max-width: 340px) {
@@ -325,10 +342,18 @@ footer {
     position: relative;
   }
   .small_info{
-    margin: 0;
+    margin-top:-43px;
   }
   .card{
     width: 92%;
     margin: 2% 2% 5% 4%;
+  }
+  .contact_us{
+    width: 80%;
+    margin:10%;
+  }
+  .login{
+    width: 80%;
+    margin:10%;
   }
 }
