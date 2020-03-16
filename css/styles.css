@@ -1,0 +1,152 @@
+*{
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: #61122f;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.fixed_nav{
+  position: fixed;
+  width: 100%;
+   z-index: 1;
+}
+.topnav {
+  overflow: hidden;
+  background-color: #111;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.topnav a.logo {
+  background-color: #4CAF50;
+  color: white;
+  float:right;
+}
+#logo_main{
+  background-image: url('../images/logo_2.png');
+  background-repeat: no-repeat;
+  background-size: 300px 80px;
+  float:left;
+  width:300px;
+  height: 80px;
+}
+
+
+.small_info{
+  text-align: center;
+  height: auto;
+  background-image: url('../images/background_2.jfif');
+  background-size: auto;
+}
+.small_info h1{
+  margin:0;
+}
+.small_info p{
+  margin-bottom: 0;
+}
+
+.split {
+    height: 500px;
+    width: 50%;
+    position: relative;
+
+    overflow-x: hidden;
+ 
+}
+
+.left {
+    left: 0;
+    clear:left;
+    float:left;
+    background-color: #111;
+}
+
+.right {
+    right: 0;
+    background-color: red;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.centered img {
+    width: 150px;
+    border-radius: 50%;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  text-align: center;
+  font-family: arial;
+  clear:left;
+  position: relative;
+
+  display: block;
+}
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+
+button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+
+button:hover, a:hover {
+  opacity: 0.7;
+}
+@media (max-width: 720px){
+  #logo_main{
+    float:none;
+  }
+  .topnav a{
+    display: block;
+    float: none;
+    width: 100%;
+  }
+
+}
