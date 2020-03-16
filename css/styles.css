@@ -54,9 +54,10 @@ body {
   background-size: auto;
   position: relative;
   margin-top:47px;
+  font-size: 2em;
 }
 .small_info h1{
-  margin:0;
+  padding-top:30px;
   color:black;
 }
 .small_info p{
