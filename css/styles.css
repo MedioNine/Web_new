@@ -149,6 +149,7 @@ button:hover, a:hover {
   color:black;
   position: relative;
 }
+
 .texti{
   font-size: 25px;
   position: relative;
@@ -170,7 +171,7 @@ button:hover, a:hover {
 .imgcontainer {
     margin: 24px 0 12px 50px;
 }
-input[type=text], input[type=password]{
+input[type=text], input[type=password], textarea{
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
