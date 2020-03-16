@@ -138,7 +138,7 @@ button:hover, a:hover {
 footer {
   width: 100%;
   position: relative;
-  height: auto;
+  height: 100px;
   background-color: black;
   clear:left;
 }
