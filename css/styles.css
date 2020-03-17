@@ -350,7 +350,12 @@ footer {
   }
   .topnav a{
     display: block;
-    float: none;
+    float: left;
+    width: 50%;
+  }
+  .topnav .logo{
+    display:block;
+    float:none;
     width: 100%;
   }
   .fixed_nav{
