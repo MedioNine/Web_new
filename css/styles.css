@@ -46,9 +46,15 @@ body {
   background-color: black;
   color: white;
   float:right;
+height: 47px;
+width: 160px;
 }
+.topnav img{
+height:37px;
+ width:120px;
+margin-top: -9px
 
-
+}
 .small_info{
   text-align: center;
   height: auto;
@@ -186,6 +192,10 @@ button:hover, a:hover {
 .imgcontainer {
     margin: 24px 0 12px 50px;
 }
+.imgcontainer :last-child {
+    margin: 24px 0 12px 50px;
+    display: none;
+}
 
 input[type=text], input[type=password], textarea{
     width: 100%;
@@ -318,9 +328,15 @@ footer {
   .footer .col ul li {
     font-size: 13px;
   }
-  .imgcontainer{
+  .imgcontainer :first-child{
     display:none;
   }
+  .imgcontainer :last-child{
+    width: 80%;
+    display: block;
+    margin:0;
+    margin-left: 5%;
+}
 }
 @media only screen and (max-width: 500px) {
     .footer .col {
@@ -356,12 +372,16 @@ footer {
     float: left;
     width: 50%;
   }
-  .topnav .logo{
+  .topnav a.logo{
     display:block;
-    float:none;
+    float:left;
     width: 100%;
-    font-weight: bold;
-    font-size:20px;
+    height: 18%;  
+  }
+  .topnav img{
+    width: 50%;
+    height: 12%;
+    padding-top:15px; 
   }
   .small_info h1{
     display:none;
