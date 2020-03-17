@@ -55,16 +55,22 @@ body {
   position: relative;
   margin-top: 47px;
   font-size: 2em;
+  color: black;
+  font-weight: bold;
 
   h1 {
     padding-top: 30px;
-    color: black;
   }
 
   p {
     margin-bottom: 0;
-    color: black;
   }
+}
+
+.text-center {
+  color: black;
+  text-align: center;
+  font-size: 36px;
 }
 
 .split {
@@ -103,10 +109,15 @@ body {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1);
   width: 44%;
   text-align: center;
-  font-family: arial;
+  font-family: arial, sans-serif;
   color: black;
   float: left;
   margin: 3% 3%;
+
+  img {
+    width: 100%;
+    height: 250px;
+  }
 }
 
 .title {
@@ -141,7 +152,7 @@ button:hover, a:hover {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1);
   width: 50%;
   text-align: center;
-  font-family: arial;
+  font-family: arial, sans-serif;
   float: left;
   margin: 5.5% 25% 6% 25%;
   background-color: #FFFFFF;
@@ -156,6 +167,13 @@ button:hover, a:hover {
   font-weight: 600;
 }
 
+.text-center-up {
+  margin-top: 10%;
+  color: black;
+  text-align: center;
+  font-size: 36px;
+}
+
 .login {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1);
   width: 50%;
@@ -164,7 +182,6 @@ button:hover, a:hover {
   float: left;
   margin: 5.5% 25% 6% 25%;
   background-color: #FFFFFF;
-  z-index: 2;
   color: black;
 }
 
@@ -232,6 +249,13 @@ span.psw {
   }
 }
 
+.fgtpsw {
+  color: black;
+  padding-top: 16px;
+  color: white;
+  text-align: center;
+}
+
 footer {
   width: 100%;
   position: relative;
@@ -244,9 +268,6 @@ footer {
   width: 190px;
   height: auto;
   float: left;
-  box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
   padding: 0px 20px 20px 20px;
 
   h1 {
@@ -275,8 +296,6 @@ footer {
       padding: 5px 0px 5px 0px;
       cursor: pointer;
       transition: .2s;
-      -webkit-transition: .2s;
-      -moz-transition: .2s;
     }
   }
 }
@@ -289,8 +308,6 @@ footer {
 .footer .col ul li:hover {
   color: #ffffff;
   transition: .1s;
-  -webkit-transition: .1s;
-  -moz-transition: .1s;
 }
 
 .clearfix {
@@ -390,5 +407,9 @@ footer {
   .contact_us, .login {
     width: 80%;
     margin: 10%;
+  }
+
+  .small_info {
+    font-size: 1em;
   }
 }
