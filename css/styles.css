@@ -43,7 +43,7 @@ body {
 }
 
 .topnav a.logo {
-  background-color: #edb021;
+  background-color: black;
   color: white;
   float:right;
 }
@@ -374,4 +374,5 @@ footer {
   .small_info{
       font-size:1em;
   }
+
 }
