@@ -356,4 +356,7 @@ footer {
     width: 80%;
     margin:10%;
   }
+  .small_info{
+      font-size:1em;
+  }
 }
