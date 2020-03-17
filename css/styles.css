@@ -340,13 +340,24 @@ footer {
 }
 @media only screen and (max-width: 500px) {
     .footer .col {
-      width: 50%;
+      width: 33%;
+      height: 100px;
     }
     .footer .col h1 {
-      font-size: 14px;
+      font-size: 9px;
     }
     .footer .col ul li {
-      font-size: 13px;
+      font-size: 8px;
+      padding: 2px 0 0 0;
+    }
+    .social ul li{
+      float: left;
+      width: 30%;
+      position: relative;
+      margin:auto;
+    }
+    .social ul{
+      width: 100%;
     }
     .container_sm {
     height: 100px;
@@ -354,10 +365,18 @@ footer {
     span.psw  a{
     font-size:20px;
     }
+
+    .clearfix {
+      clear: both;
+       font-family: inherit;
+       color: rgba(255,255,255,0.2);
+       
+       font-size:10px;
+    }
 }
 @media only screen and (max-width: 340px) {
   .footer .col {
-    width: 100%;
+    width: 33%;
   }
   .texti{
     font-size: 16px;
