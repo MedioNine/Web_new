@@ -360,6 +360,13 @@ footer {
     font-weight: bold;
     font-size:20px;
   }
+  .small_info h1{
+    display:none;
+  }
+  .small_info p{
+    margin-top:40px;
+    padding-top: 20px;
+  }
   .fixed_nav{
     position: relative;
   }
