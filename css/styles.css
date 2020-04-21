@@ -41,7 +41,9 @@ body {
   background-color: #edb021;
   color: white;
 }
-
+#user{
+  float: right;
+}
 .topnav a.logo {
   background-color: black;
   color: white;

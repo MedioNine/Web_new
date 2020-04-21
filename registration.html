@@ -28,22 +28,21 @@
 		</div>
 
 		<div class='container_bg'>
-      <form id='login'>
+      <form id='register'>
 			   <label><b>Username</b></label>
    			 <input type="text" placeholder="Enter Username"required name="username" id='username'>
-			   <label><b>Password</b></label>
-   			 <input type="password" placeholder="Enter Password"required name="password" id='password'>
+                <label><b>Email</b></label>
+   			 <input type="text" placeholder="Enter Email"required name="email" id='email'>
+                <label><b>Password</b></label>
+            <input type="password" placeholder="Enter Password"required name="password" id='password'>
+                <label><b>Repeat password</b></label>
+   			 <input type="password" placeholder="Repeat Password"required name="password2" id='password2'>
         <span id='errorShow'></span> 
-        <button type="submit" >Login</button>
+        <button type="submit" >Register me</button>
       </form>
-   			 <a href='registration.html'><button type="submit">Don't have account? Sign up!</button></a>
+      <a href='login.html'><button type="submit" href='login.html'>Already have account? Sign in!</button></a>
     		 <label>
-      		 <input type="checkbox" checked="checked"> <span class='rmb'>Remember me<span>
-    		 </label>
 		</div>
-		<div class="container_sm">
-    		<span><a href="forgot_password.html" class="fgtpsw">Forgot password?</a></span>
-  		</div>
 	
 </div>
 
@@ -87,7 +86,8 @@
 </footer>
   
 
-<script src='js/login.js'></script>
+<script src='js/registration.js'></script>
+
 </body>
 </html>
   
