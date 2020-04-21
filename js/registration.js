@@ -12,7 +12,7 @@ const myForm = document.getElementById('register');
        window.location.reload(false);
       } else {
         localStorage.removeItem('error');
-        window.location.replace('http://localhost:3001/login.html');
+        window.location.replace('login.html');
       }
       return response.json();
     }).then(data => {

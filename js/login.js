@@ -10,7 +10,7 @@
         window.location.reload(false);
       } else {
         localStorage.removeItem('error');
-        window.location.replace('http://localhost:3001/index.html')
+        window.location.replace('index.html')
       }
       return response.json();
     }).then(data => {
